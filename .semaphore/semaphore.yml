@@ -32,7 +32,7 @@ blocks:
         - name: Style
           commands:
             - pip install flake8
-            - flake8 martor_demo/ --max-line-length=127
+            - flake8 . --max-line-length=127
       prologue:
         commands:
           - sem-version python 3.9
